@@ -1,0 +1,100 @@
+@charset "UTF-8";
+/* CSS Document */
+body{
+	background-image: url("../images/bg.jpg");
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+	background-size: cover;
+
+}
+
+#container h1{
+	
+	
+	text-align: center;
+background-color: black;
+	color: white;
+
+}
+
+nav {
+text-align: center;
+margin-top: 15%;
+background: -webkit-linear-gradient(left top, black, white); /* For Safari 5.1 to 6.0 */
+background: -o-linear-gradient(bottom right, black, white); /* For Opera 11.1 to 12.0 */
+background: -moz-linear-gradient(bottom right, black, white); /* For Firefox 3.6 to 15 */
+background: linear-gradient(to bottom right, black, white); /* Standard syntax */
+
+
+	
+
+
+}
+nav a{
+		color: black;
+
+}
+#show{
+	text-align: center;
+
+}
+#show section{
+
+	margin-right: 2%;
+	margin-left: 2%;
+
+
+	display: inline-block;
+}
+
+
+
+.tab, #show a{
+
+	text-decoration: none;
+	
+
+}
+#logo{
+	position: absolute;
+	top: 5%;
+	left: 43%;
+}
+#searchform{
+	position: absolute;
+	text-align: right;
+	top: 50%;
+	right: 41.5%;
+}
+#show, #showfull {
+	margin-top: 7%;
+
+}
+#showfull{
+
+	padding-left: 38%;
+	padding-right: 32%;
+}
+#fullimg{
+	float: left;
+
+}
+#fullimgdetail{
+	padding-top: 10%;
+	float: right;
+}
+#show a, #showfull a{
+	color: black;
+	
+}
+footer {	
+	margin-top: 25%;
+	text-align: center;
+	padding-top: 10px;
+	height: 20px;
+	padding-bottom: 10px;
+    background-color: black;
+    color: white;
+}
